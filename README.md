@@ -19,14 +19,14 @@ Reduced Redundancy: 0  (0.0 GiB)
 Glacier: 19404514832  (18.07 GiB)
 
 
-$ ./s3du.py --max-depth=1 -s s3://my-bucket/cool-stuff
+$ ./s3du.py --max-depth=1 -s s3://my-bucket/cool-stuff/
 26007986192	s3://my-bucket/cool-stuff/music/
 20037957120	s3://my-bucket/cool-stuff/pictures/
 350180736512	s3://my-bucket/cool-stuff/videos/
 4961298432	s3://my-bucket/cool-stuff/documents/
 
 
-$ ./s3du.py --max-depth=1 s3://my-bucket/cool-stuff
+$ ./s3du.py --max-depth=1 s3://my-bucket/cool-stuff/
 s3://my-bucket/cool-stuff/music/
 Standard Storage: 6603471360  (6.15 GiB)
 Reduced Redundancy: 0  (0.0 GiB)
